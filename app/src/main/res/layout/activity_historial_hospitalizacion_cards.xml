@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp"
+    android:weightSum="1">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hospitalizacion_cv"
+        cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:padding="16dp"
+            >
+
+            <ImageView
+                android:src="@drawable/hospital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hospitalizacion_icono"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="16dp"
+                />
+
+            <TextView
+                android:layout_toRightOf="@id/hospitalizacion_icono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hospitalizacion_causa"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:layout_toRightOf="@id/hospitalizacion_icono"
+                android:layout_below="@id/hospitalizacion_causa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hospitalizacion_clinica"
+                />
+
+            <TextView
+                android:layout_toRightOf="@id/hospitalizacion_icono"
+                android:layout_below="@id/hospitalizacion_clinica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hospitalizacion_fechaIngreso"
+                />
+
+            <TextView
+                android:layout_toRightOf="@id/hospitalizacion_icono"
+                android:layout_below="@id/hospitalizacion_fechaIngreso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hospitalizacion_fechaSalida"
+                />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

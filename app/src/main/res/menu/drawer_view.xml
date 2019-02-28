@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item
+            android:id="@+id/nav_sintomas"
+            android:icon="@drawable/bullet"
+            android:title="Síntomas del paciente"
+            android:visible="true"
+            />
+        <item
+            android:id="@+id/nav_estudios"
+            android:icon="@drawable/bullet"
+            android:title="Estudios médicos"
+            android:visible="true"/>
+        <item
+            android:id="@+id/nav_medicamentos"
+            android:icon="@drawable/bullet"
+            android:title="Medicamentos consumidos"
+            android:visible="true"/>
+        <item
+            android:id="@+id/nav_historial"
+            android:icon="@drawable/bullet"
+            android:title="Historial clínico"
+            android:visible="true"/>
+    </group>
+</menu>

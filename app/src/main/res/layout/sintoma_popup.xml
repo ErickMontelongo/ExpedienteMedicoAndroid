@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_custom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:background="#444444"
+    >
+    <ImageButton
+        android:id="@+id/ib_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/exit"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/cardview_dark_background"
+        />
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/sintoma_popupText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resumen de síntoma elegido"
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/sintoma_popup_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp"
+        android:layout_below="@+id/sintoma_popupText"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_below="@id/sintoma_popup_titulo"
+        android:id="@+id/sintoma_popup_intensidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_below="@id/sintoma_popup_intensidad"
+        android:id="@+id/sintoma_popup_frecuencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_below="@id/sintoma_popup_frecuencia"
+        android:id="@+id/sintoma_popup_regionCuerpo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_below="@id/sintoma_popup_regionCuerpo"
+        android:id="@+id/sintoma_popup_regionEspecifica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_below="@id/sintoma_popup_regionEspecifica"
+        android:id="@+id/sintoma_popup_descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

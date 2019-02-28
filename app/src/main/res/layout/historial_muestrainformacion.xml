@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/primary_darker"
+        >
+
+        <ImageView
+            android:src="@drawable/person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/icono_persona"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/historial_antecedentes_familiar"
+            android:layout_toRightOf="@+id/icono_persona"
+            android:layout_centerHorizontal="true"
+            android:textSize="40sp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/historial_antecedentes_vivo"
+            android:layout_toRightOf="@+id/icono_persona"
+            android:layout_below="@id/historial_antecedentes_familiar"
+            android:textSize="30sp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/historial_antecedentes_causa"
+            android:layout_toRightOf="@+id/icono_persona"
+            android:layout_below="@id/historial_antecedentes_vivo"
+            android:textSize="20sp"
+            android:textAlignment="center" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:weightSum="1">
+
+        <ImageView android:src="@drawable/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!--  Name Label -->
+        <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:text="Datos Personales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_weight="0.15"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:paddingBottom="25dp"
+            android:textSize="18sp" />
+
+        <EditText android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:hint="Nombre"
+                android:singleLine="false"
+            android:maxLength="25" />
+
+        <EditText android:id="@+id/input_apellidoP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:hint="Apellido Paterno"
+            android:singleLine="false"
+            android:maxLength="45" />
+
+        <EditText android:id="@+id/input_apellidoM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:hint="Apellido Materno"
+            android:singleLine="false"
+            android:paddingBottom="20dp"
+            android:maxLength="45" />
+
+        <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:text="Datos de la cuenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_Cuenta"
+            android:layout_weight="0.15"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:paddingBottom="25dp"
+            android:paddingTop="25dp"
+            android:textSize="18sp" />
+
+        <!-- Email Label -->
+            <EditText android:id="@+id/input_cedula"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Cedula Profesional"
+                android:maxLength="9" />
+
+
+        <!-- Password Label -->
+
+        <EditText android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Contraseña"
+            android:paddingBottom="20dp"
+            android:maxLength="10" />
+
+        <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:text="Datos de la universidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_Universidad"
+            android:layout_weight="0.15"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:paddingBottom="25dp"
+            android:paddingTop="25dp"
+            android:textSize="18sp" />
+
+        <EditText android:id="@+id/input_universidad_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Nombre universidad"
+            android:maxLength="100" />
+
+        <EditText android:id="@+id/input_universidad_clave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Clave"
+            android:maxLength="10" />
+
+        <EditText android:id="@+id/input_especialidad_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre de la especialidad"
+            android:paddingBottom="20dp"
+            android:inputType="text"
+            android:maxLength="100" />
+
+        <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:text="Datos laborales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_Especialidad"
+            android:layout_weight="0.15"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:paddingBottom="25dp"
+            android:paddingTop="25dp"
+            android:textSize="18sp" />
+
+        <EditText android:id="@+id/input_direccion_nombreEmpresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Nombre de la institución"
+            android:maxLength="60" />
+
+        <EditText android:id="@+id/input_direccion_consultorio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Consultorio"
+            android:maxLength="25" />
+
+        <EditText android:id="@+id/input_direccion_estado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Estado"
+            android:maxLength="16" />
+
+        <EditText android:id="@+id/input_direccion_municipio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Municipio"
+            android:maxLength="25" />
+
+        <EditText android:id="@+id/input_direccion_colonia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Colonia"
+            android:maxLength="45" />
+
+        <EditText android:id="@+id/input_direccion_calle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Calle"
+            android:maxLength="50" />
+
+        <EditText android:id="@+id/input_direccion_telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="Número telefonico"
+            android:maxLength="12" />
+
+        <EditText android:id="@+id/input_direccion_cp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Código postal"
+            android:inputType="textPostalAddress"
+            android:maxLength="5" />
+
+
+        <!-- Signup Button -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:text="Crear cuenta"/>
+
+        <TextView android:id="@+id/link_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="¿Ya estas registrado? ¡Ingresa!"
+            android:gravity="center"
+            android:textSize="16dip"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_popup"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#444444">
+
+    <ImageButton
+        android:id="@+id/ib_close_medicamentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/exit"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/cardview_dark_background"
+        />
+
+    <TextView
+        android:id="@+id/medicamento_popup_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp"
+        android:layout_below="@+id/medicamento_popupText"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_below="@id/medicamento_popup_titulo"
+        android:id="@+id/medicamento_popup_nombreComercial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_below="@id/medicamento_popup_nombreComercial"
+        android:id="@+id/medicamento_popup_duracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_below="@id/medicamento_popup_duracion"
+        android:id="@+id/medicamento_popup_frecuencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_below="@id/medicamento_popup_frecuencia"
+        android:id="@+id/medicamento_popup_lunes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_below="@id/medicamento_popup_lunes"
+        android:id="@+id/medicamento_popup_martes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_below="@id/medicamento_popup_martes"
+        android:id="@+id/medicamento_popup_miercoles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_below="@id/medicamento_popup_miercoles"
+        android:id="@+id/medicamento_popup_jueves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_below="@id/medicamento_popup_jueves"
+        android:id="@+id/medicamento_popup_viernes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_below="@id/medicamento_popup_viernes"
+        android:id="@+id/medicamento_popup_sabado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_below="@id/medicamento_popup_sabado"
+        android:id="@+id/medicamento_popup_domingo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_below="@id/medicamento_popup_domingo"
+        android:id="@+id/medicamento_popup_alergia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_below="@id/medicamento_popup_alergia"
+        android:id="@+id/medicamento_popup_adversas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_below="@id/medicamento_popup_adversas"
+        android:id="@+id/medicamento_popup_resultados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="false"
+        android:padding="25sp"
+        android:textSize="24sp" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

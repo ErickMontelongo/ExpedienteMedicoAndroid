@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Elegir una de las categorías del historial clinico"
+    android:textAlignment="center"
+    android:textSize="40dp"
+    android:textColor="@color/black"
+    android:paddingBottom="12dp"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:src="@drawable/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/icono_info"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hitorial_info"
+        android:layout_toRightOf="@+id/icono_info"
+        android:layout_alignParentTop="true"
+        android:text="Información personal"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_toRightOf="@id/icono_info"
+        android:layout_below="@id/hitorial_info"
+        android:layout_width="match_parent"
+        android:layout_height="90sp"
+        android:text="Consultar"
+        android:id="@+id/hitorial_button_info"/>
+
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:src="@drawable/antecedentes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/icono_antecedente"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hitorial_antecedente"
+        android:layout_toRightOf="@+id/icono_antecedente"
+        android:layout_alignParentTop="true"
+        android:text="Antecedentes personales"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_toRightOf="@id/icono_antecedente"
+        android:layout_below="@id/hitorial_antecedente"
+        android:layout_width="match_parent"
+        android:layout_height="90sp"
+        android:text="Consultar"
+        android:id="@+id/hitorial_button_antecedente"/>
+
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:src="@drawable/alergia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/icono_alergia"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hitorial_alergia"
+        android:layout_toRightOf="@+id/icono_alergia"
+        android:layout_alignParentTop="true"
+        android:text="Alergias"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_toRightOf="@id/icono_alergia"
+        android:layout_below="@id/hitorial_alergia"
+        android:layout_width="match_parent"
+        android:layout_height="90sp"
+        android:text="Consultar"
+        android:id="@+id/hitorial_button_alergia"/>
+
+
+</RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            >
+
+            <ImageView
+                android:src="@drawable/enfermedad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/icono_enfermedad"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="16dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hitorial_enfermedad"
+                android:layout_toRightOf="@+id/icono_enfermedad"
+                android:layout_alignParentTop="true"
+                android:text="Enfermedades"
+                android:textSize="40sp"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:layout_toRightOf="@id/icono_enfermedad"
+                android:layout_below="@id/hitorial_enfermedad"
+                android:layout_width="match_parent"
+                android:layout_height="90sp"
+                android:text="Consultar"
+                android:id="@+id/hitorial_button_enfermedad"/>
+
+
+        </RelativeLayout>
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:src="@drawable/cigarro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/icono_cigarro"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hitorial_toxicomanias"
+        android:layout_toRightOf="@+id/icono_cigarro"
+        android:layout_alignParentTop="true"
+        android:text="Toxicomanias"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_toRightOf="@id/icono_cigarro"
+        android:layout_below="@id/hitorial_toxicomanias"
+        android:layout_width="match_parent"
+        android:layout_height="90sp"
+        android:text="Consultar"
+        android:id="@+id/hitorial_button_toxicomanias"/>
+
+
+</RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            >
+
+            <ImageView
+                android:src="@drawable/vacuna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/icono_vacuna"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="16dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hitorial_vacunas"
+                android:layout_toRightOf="@+id/icono_vacuna"
+                android:layout_alignParentTop="true"
+                android:text="Vacunas"
+                android:textSize="40sp"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:layout_toRightOf="@id/icono_vacuna"
+                android:layout_below="@id/hitorial_vacunas"
+                android:layout_width="match_parent"
+                android:layout_height="90sp"
+                android:text="Consultar"
+                android:id="@+id/hitorial_button_vacunas"/>
+
+
+        </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+
+        <ImageView
+            android:src="@drawable/hospital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/icono_hospital"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hitorial_hospitalizacion"
+            android:layout_toRightOf="@+id/icono_hospital"
+            android:layout_alignParentTop="true"
+            android:text="Hospitalizacion"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_toRightOf="@id/icono_hospital"
+            android:layout_below="@id/hitorial_hospitalizacion"
+            android:layout_width="match_parent"
+            android:layout_height="90sp"
+            android:text="Consultar"
+            android:id="@+id/hitorial_button_hospitalizacion"/>
+
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            >
+
+            <ImageView
+                android:src="@drawable/cirugia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/icono_cirugia"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="16dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hitorial_cirugia"
+                android:layout_toRightOf="@+id/icono_cirugia"
+                android:layout_alignParentTop="true"
+                android:text="Cirugias"
+                android:textSize="40sp"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:layout_toRightOf="@id/icono_cirugia"
+                android:layout_below="@id/hitorial_cirugia"
+                android:layout_width="match_parent"
+                android:layout_height="90sp"
+                android:text="Consultar"
+                android:id="@+id/hitorial_button_cirugias"/>
+
+
+        </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

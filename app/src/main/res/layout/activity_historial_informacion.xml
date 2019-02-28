@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Información personal del paciente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/historial_tituloInformacion"
+        android:textAlignment="center"
+        android:textSize="60dp"
+        android:textColor="@color/black"
+        android:paddingBottom="80dp"
+        />
+
+    <GridLayout
+        android:layout_width="811dp"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:orientation="vertical"
+        android:rowCount="6">
+
+        <TextView
+            android:id="@+id/historial_etiqueta_sexo"
+            android:layout_width="418dp"
+            android:layout_height="99dp"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:paddingBottom="40dp"
+            android:text="Sexo:"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/historial_informacion_sexo"
+            android:layout_width="372dp"
+            android:layout_height="111dp"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:paddingBottom="40dp"
+            android:text="Text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/historial_etiqueta_nacimiento"
+            android:layout_width="418dp"
+            android:layout_height="140dp"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:paddingBottom="40dp"
+            android:text="Fecha de nacimiento:"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/historial_informacion_fechaNac"
+            android:layout_width="372dp"
+            android:layout_height="146dp"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:paddingBottom="40dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/historial_etiqueta_altura"
+            android:layout_width="418dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:paddingBottom="40dp"
+            android:text="Altura:"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/historial_informacion_altura"
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:paddingBottom="40dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/historial_etiqueta_peso"
+            android:layout_width="418dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:paddingBottom="40dp"
+            android:text="Peso:"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/historial_informacion_peso"
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:paddingBottom="40dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/historial_etiqueta_tSangre"
+            android:layout_width="418dp"
+            android:layout_height="99dp"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:paddingBottom="40dp"
+            android:text="Tipo de sangre:"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+
+        <TextView
+            android:id="@+id/historial_informacion_tipoSangre"
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:paddingBottom="40dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/historial_etiqueta_transfuciones"
+            android:layout_width="418dp"
+            android:layout_height="169dp"
+            android:layout_column="0"
+            android:layout_row="5"
+            android:paddingBottom="40dp"
+            android:text="¿Ha recibido transfuciones?:"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/historial_informacion_transfuciones"
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="5"
+            android:paddingBottom="40dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+    </GridLayout>
+
+</LinearLayout>

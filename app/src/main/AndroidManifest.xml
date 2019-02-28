@@ -1,0 +1,48 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="activities">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Dark">
+        <activity
+            android:name="activities.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="activities.LoginActivity" android:theme="@style/AppTheme.Dark" />
+        <activity android:name="activities.WelcomeActivity" android:theme="@style/AppTheme.Dark" />
+        <activity android:name="activities.SignupActivity" android:theme="@style/AppTheme.Dark" />
+        <activity android:name="activities.ListaPacientesActivity" android:theme="@style/AppTheme.Dark" />
+        <activity android:name="activities.ResumenActivity" android:theme="@style/AppTheme.Dark"/>
+        <activity android:name="activities.EstudioImageActivity" android:theme="@style/AppTheme.Dark"/>
+        <activity android:name="activities.historialActivities.InformacionActivity" android:theme="@style/AppTheme.Dark" />
+        <activity android:name="activities.historialActivities.AntecedentesActivity" android:theme="@style/AppTheme.Dark"/>
+        <activity android:name="activities.historialActivities.AlergiasActivity" android:theme="@style/AppTheme.Dark"/>
+        <activity android:name=".historialActivities.ToxicomaniasActivity" android:theme="@style/AppTheme.Dark"/>
+        <activity android:name=".historialActivities.VacunasActivity" android:theme="@style/AppTheme.Dark"/>
+        <activity android:name=".historialActivities.EnfermedadesActivity" android:theme="@style/AppTheme.Dark"/>
+        <activity android:name=".historialActivities.HistorialArchivosActivity" android:theme="@style/AppTheme.Dark"/>
+        <activity android:name=".historialActivities.HospitalizacionActivity" android:theme="@style/AppTheme.Dark"/>
+        <activity android:name=".historialActivities.PdfViewActivity" />
+        <activity android:name=".historialActivities.ArchivoCardActivity" />
+        <activity android:name=".historialActivities.HistorialResumenActivity" />
+        <activity android:name=".historialActivities.CirugiaActivity" />
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+
+</manifest>
